@@ -49,9 +49,33 @@ body {
   background-position: center center;
   background-size: cover;
 }
+.page .main .slider__slide .slider__content {
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 0px;
+  padding: 15px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s linear 0.5s;
+  transform: translateX(-100%);
+  color: #F3F3F3;
+}
+@media screen and (min-width: 600px) {
+  .page .main .slider__slide .slider__content {
+    border-radius: 0px 0px 50px 0px;
+  }
+}
+.page .main .slider__slide .slider__title span {
+  display: block;
+  font-weight: 300;
+}
 .page .main .slider__slide.active {
   opacity: 1;
   transform: translateY(0%);
+}
+.page .main .slider__slide.active .slider__content {
+  transform: translateX(0%);
 }
 .page .main .slider__btns {
   position: absolute;

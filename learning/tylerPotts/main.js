@@ -14,13 +14,13 @@ let projects = [
 
     },
     {
-        title: "project 1",
+        title: "project 2",
         type: "Website",
         content: "Lorem ipsum dolor",
         image: "https://mobilecontent.costco.com/live/resource/img/ca-homepage/d-hero-221205-disney-en.jpg",
     },
     {
-        title: "project 1",
+        title: "project 3",
         type: "Website",
         content: "Lorem ipsum dolor",
         image: "https://mobilecontent.costco.com/live/resource/img/ca-homepage/d-hero-220912-clothing-en.jpg",
