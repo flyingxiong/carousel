@@ -33,9 +33,10 @@ body{
     }
   }
   .main {
-    flex: 1;
-    overflow: scroll;
-
+    //flex: 1;
+    //overflow: scroll;
+    height: 400px;
+    margin: 0 10% 0 10%;
     .slider {
       position: relative;
       overflow: hidden;

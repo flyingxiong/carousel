@@ -28,8 +28,8 @@ body {
   font-weight: 300;
 }
 .page .main {
-  flex: 1;
-  overflow: scroll;
+  height: 400px;
+  margin: 0 10% 0 10%;
 }
 .page .main .slider {
   position: relative;
