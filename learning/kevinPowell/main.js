@@ -61,3 +61,5 @@ dotsNav.addEventListener('click', e => {
     targetDot.classList.add('current-slide');
 
 })
+
+// change slides for the first and last slides
